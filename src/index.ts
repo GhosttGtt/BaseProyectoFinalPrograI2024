@@ -1,4 +1,4 @@
-import { Clinica } from './src/src/classes/Clinica';
+import { Clinica } from './src/Clinica';
 
 const clinica = new Clinica();
 
@@ -7,9 +7,9 @@ const paciente1 = clinica.crearPaciente({
     fecha_nacimiento: new Date('2000-01-01'),
     direccion: 'Dirección nueva',
     telefono: 123456789,
-    alergias: ['Polen'],
-    medicamentos_actuales: ['Ibuprofeno'],
-    condiciones_medicas: ['Asma']
+    alergias: ['Polvo'],
+    medicamentos_actuales: ['Acetaminofen'],
+    condiciones_medicas: ['Diabetes']
 });
 
 console.log('Paciente creado:', paciente1);
