@@ -1,4 +1,7 @@
+<<<<<<< HEAD
+=======
 
+>>>>>>> e2088352cca90bcc5df50673c74cabe3d5146a56
 import { Receta } from "./receta.interface"
 
 export interface Paciente {
