@@ -702,4 +702,3 @@ function facturacionMes(mes:number, anio: number){
     console.log(`Total de facturación para ${mes}/${anio}:`, totalFacturacion);
 }
 
-facturacionMes(7, 2024);
