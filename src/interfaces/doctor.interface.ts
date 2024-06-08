@@ -7,4 +7,3 @@ export interface Doctor {
     horario: Horario[]
 }
 export { Horario }
-

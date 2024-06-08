@@ -11,3 +11,4 @@ export interface Paciente {
     condiciones_medicas: string[]
     recetas: Receta[];
 }
+
