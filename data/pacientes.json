@@ -21,14 +21,8 @@
     "fecha_nacimiento": "1985-10-20T00:00:00.000Z",
     "direccion": "Villa Nueva, Guatemala",
     "telefono": 98765432,
-    "alergias": [
-      "Aspirina",
-      "Aire",
-      "Luz"
-    ],
-    "medicamentos_actuales": [
-      "Paracetamol"
-    ],
+    "alergias": [],
+    "medicamentos_actuales": [],
     "condiciones_medicas": [
       "Hipertensión"
     ]

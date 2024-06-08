@@ -705,14 +705,3 @@ function facturacionMes(mes:number, anio: number){
 }
 
 //facturacionMes(7, 2022);
-
-
-
-
-
-
-
-
-
-
-

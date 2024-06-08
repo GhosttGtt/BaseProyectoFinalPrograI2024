@@ -1,3 +1,4 @@
+
 import { Medicamento } from './medicamento.interface'
 
 export interface Receta {
