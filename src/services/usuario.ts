@@ -112,3 +112,4 @@ export class UsuarioService {
   desautenticarUsuario(): void {
     this.usuarioAutenticado = null;
   }
+}
