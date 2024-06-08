@@ -217,7 +217,7 @@ function nuevaCita(idPaciente: number, idDoctor: number){
     const citaCreada = citaService.programarCita(nuevaCita);
     console.log('Cita programada con éxito:', nuevaCita);
 }
-//nuevaCita(1, 1);
+nuevaCita(1, 1);
 
 
 
@@ -459,7 +459,7 @@ function editarReceta(id:number){
     };
     recetaService.editarReceta(id, recetaEditada);
 }
-//editarReceta(3);
+editarReceta(3);
 
 
 
@@ -689,7 +689,7 @@ function obtenerFacturaPorFecha(fechaEspecifica: Date){
     const facturasFecha = facturaService.obtenerFacturasPorFecha(fechaEspecifica);
     console.log('Facturas de la fecha:', facturasFecha);
 }
-obtenerCitasPorFecha( new Date('2024-06-07'));
+//obtenerCitasPorFecha( new Date('2024-06-07'));
  
 
 
