@@ -1,18 +1,18 @@
 [
   {
     "id_paciente": 1,
-    "nombre": "Carlos Méndez",
+    "nombre": "Juan Pérez",
     "fecha_nacimiento": "1990-05-15T00:00:00.000Z",
-    "direccion": "Ciudad de Guatemala",
-    "telefono": 12345678,
+    "direccion": "Calle Principal 123",
+    "telefono": 123456789,
     "alergias": [
-      "Penicilina"
-    ],
-    "medicamentos_actuales": [
       "Aspirina"
     ],
+    "medicamentos_actuales": [
+      "Paracetamol"
+    ],
     "condiciones_medicas": [
-      "Diabetes"
+      "Hipertensión"
     ]
   },
   {

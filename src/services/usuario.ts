@@ -40,9 +40,6 @@ export class UsuarioService {
   private obtenerUsuarioPorId(id: number): Usuario | undefined {
     return this.usuarios.find(usuario => usuario.id_usuario === id);
   }
-
-
-  
    editarUsuario(id: number, nuevoUsuarioData: Partial<Usuario>): void {
     const usuarioExistente = this.obtenerUsuarioPorId(id);
       if (usuarioExistente) {
@@ -112,4 +109,3 @@ export class UsuarioService {
   desautenticarUsuario(): void {
     this.usuarioAutenticado = null;
   }
-}
