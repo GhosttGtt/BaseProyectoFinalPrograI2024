@@ -1,14 +1,44 @@
 [
-    {
-        "id_paciente": 1,
-        "id_doctor": 1,
-        "medicamentos": [
-            {
-                "nombre": "Ibuprofeno",
-                "dosis": "400mg",
-                "frecuencia_horas": 8,
-                "duracion_dias": 3
-            }
-        ]
-    }
+  {
+    "id": 1,
+    "id_paciente": 1,
+    "id_doctor": 1,
+    "medicamentos": [
+      {
+        "id": 1,
+        "nombre": "Ibuprofeno",
+        "dosis": "400mg",
+        "frecuencia_horas": 6,
+        "duracion_dias": 5
+      },
+      {
+        "id": 2,
+        "nombre": "Amoxicilina",
+        "dosis": "500mg",
+        "frecuencia_horas": 8,
+        "duracion_dias": 7
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "id_paciente": 1,
+    "id_doctor": 2,
+    "medicamentos": [
+      {
+        "id": 1,
+        "nombre": "Ibuprofeno",
+        "dosis": "400mg",
+        "frecuencia_horas": 6,
+        "duracion_dias": 5
+      },
+      {
+        "id": 2,
+        "nombre": "Amoxicilina",
+        "dosis": "500mg",
+        "frecuencia_horas": 8,
+        "duracion_dias": 7
+      }
+    ]
+  }
 ]

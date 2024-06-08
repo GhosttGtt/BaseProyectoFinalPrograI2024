@@ -1,18 +1,35 @@
 [
-    {
-        "id_factura": 1,
-        "fecha_hora": "2024-06-01 10:00",
-        "id_paciente": 1,
-        "id_doctor": 1,
-        "servicios_consumidos": [1],
-        "total": 300
-    },
-    {
-        "id_factura": 2,
-        "fecha_hora": "2024-06-03 14:00",
-        "id_paciente": 2,
-        "id_doctor": 1,
-        "servicios_consumidos": [2, 3],
-        "total": 525
-    }
+  {
+    "id_factura": 1,
+    "fecha_hora": "2024-06-07T19:25:09.435Z",
+    "id_paciente": 1,
+    "id_doctor": 1,
+    "servicios_consumidos": [
+      3,
+      4
+    ],
+    "total": 200
+  },
+  {
+    "id_factura": 2,
+    "fecha_hora": "2024-06-07T19:42:28.649Z",
+    "id_paciente": 1,
+    "id_doctor": 1,
+    "servicios_consumidos": [
+      2,
+      1
+    ],
+    "total": 210
+  },
+  {
+    "id_factura": 3,
+    "fecha_hora": "2024-06-07T19:42:48.227Z",
+    "id_paciente": 1,
+    "id_doctor": 1,
+    "servicios_consumidos": [
+      1,
+      2
+    ],
+    "total": 150
+  }
 ]
