@@ -81,7 +81,7 @@ if (usuarioAutenticado) {
 
 // [  Eliminar usuario ]
 
-userService.eliminarUsuario(3);
+//userService.eliminarUsuario(3);
 
 
 
@@ -217,7 +217,7 @@ function nuevaCita(idPaciente: number, idDoctor: number){
     const citaCreada = citaService.programarCita(nuevaCita);
     console.log('Cita programada con éxito:', nuevaCita);
 }
-nuevaCita(1, 1);
+//nuevaCita(1, 1);
 
 
 
@@ -685,11 +685,12 @@ function obtenerProductoFactura(idFactura: number){
 
 //   [ OBTENER FACTURA POR FECHA ESPECIFICA ]
 
-function obtenerFacturaPorFecha(fechaEspecifica: Date){
-    const facturasFecha = facturaService.obtenerFacturasPorFecha(fechaEspecifica);
+function obtenerFacturaPorFecha(fechaEspecifica: string) {
+    const fecha = new Date(fechaEspecifica);
+    const facturasFecha = facturaService.obtenerFacturasPorFecha(fecha);
     console.log('Facturas de la fecha:', facturasFecha);
 }
-//obtenerCitasPorFecha( new Date('2024-06-07'));
+obtenerFacturaPorFecha( '2024-06-07');
  
 
 
