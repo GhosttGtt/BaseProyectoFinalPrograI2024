@@ -18,12 +18,6 @@
     "id_doctor": 1
   },
   {
-    "id_cita": 4,
-    "fecha_hora": "2024-08-30T16:00:00.000Z",
-    "id_paciente": 1,
-    "id_doctor": 1
-  },
-  {
     "id_cita": 5,
     "fecha_hora": "2024-06-10T16:00:00.000Z",
     "id_paciente": 1,
@@ -50,6 +44,12 @@
   {
     "id_cita": 9,
     "fecha_hora": "2024-06-10T16:00:00.000Z",
+    "id_paciente": 1,
+    "id_doctor": 1
+  },
+  {
+    "id_cita": 10,
+    "fecha_hora": "2024-07-30T16:00:00.000Z",
     "id_paciente": 1,
     "id_doctor": 1
   }

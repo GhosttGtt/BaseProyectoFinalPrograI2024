@@ -28,14 +28,14 @@ const userService = new UsuarioService();
 // [ CREAR USUARIO ] 
 const nuevoUsuario: Usuario = {
     id_usuario: 0,
-    nombre: 'David',
-    carnet: 123456790,
-    correo: 'david@clinica.com',
+    nombre: 'Cheli',
+    carnet: 123456792,
+    correo: 'Cheli@clinica.com',
     clave: 'clave123',
     habilitado: true
 };
-//userService.crearUsuario(nuevoUsuario);
-//console.log('Usuario creado: ', nuevoUsuario);
+// userService.crearUsuario(nuevoUsuario);
+// console.log('Usuario creado: ', nuevoUsuario);
 
 
 
@@ -51,24 +51,22 @@ function editarUsuario(id:number, nombre:string, correo: string){
     userService.editarUsuario(idUsuarioEditar, nuevosDatosUsuario);
 }
 
-//editarUsuario(3, "Juanito", "correo2@email.com");
+//editarUsuario(3, "David", "David@email.com");
 
 
 
 
 // [ LOGEAR USUARIO ]
-/*   const usuarioAutenticado = userService.autenticarUsuario('correo2@email.com', 'clave123');
+/* const usuarioAutenticado = userService.autenticarUsuario('David@email.com', 'clave123');
 if (usuarioAutenticado) {
     console.log('Usuario autenticado:', usuarioAutenticado);
 } else {
     console.log('Credenciales incorrectas o usuario deshabilitado.');
-} 
-  */
-
+} */
 
 // [ DESHABILITAR ]
 
-/* userService.deshabilitarUsuario(3); */
+// userService.deshabilitarUsuario(3);
 
 // [ HABILITAR USUARIO ]
 
@@ -76,13 +74,13 @@ if (usuarioAutenticado) {
 
 
 // [ DESAUTENTICAR USUARIO ]
-//userService.desautenticarUsuario;
+/* userService.desautenticarUsuario;
+console.log('Usuario desautenticado')*/
 
 
 // [  Eliminar usuario ]
 
-userService.eliminarUsuario(3);
-
+//userService.eliminarUsuario(3);
 
 
 
@@ -191,7 +189,7 @@ function obtenerRecetas(id:number){
     });
 }
 
-//obtenerRecetas(2)
+//obtenerRecetas(1)
 
 
 
@@ -217,7 +215,7 @@ function nuevaCita(idPaciente: number, idDoctor: number){
     const citaCreada = citaService.programarCita(nuevaCita);
     console.log('Cita programada con éxito:', nuevaCita);
 }
-nuevaCita(1, 1);
+    //nuevaCita(1, 1);
 
 
 
@@ -234,7 +232,7 @@ if (citaCancelada) {
     console.log(`Error: No se encontró una cita con ID ${id}.`);
 }
 }
-//cancelarCita(4);
+//cancelarCita(11);
 
 
 
@@ -245,7 +243,7 @@ if (citaCancelada) {
 
 
 function reprogramarCita( id: number ){
-    const nuevaFechaHora = new Date('2024-08-30T10:00:00');
+    const nuevaFechaHora = new Date('2024-05-29T10:00:00');
     const citaReprogramada = citaService.reprogramarCita(id, nuevaFechaHora);
     if (citaReprogramada) {
     console.log(`La cita con ID ${id} ha sido reprogramada para ${nuevaFechaHora}`);
@@ -254,7 +252,7 @@ function reprogramarCita( id: number ){
     }
 }
 
-//reprogramarCita(4)
+//reprogramarCita(10)
 
 
 
@@ -603,12 +601,12 @@ function elimarProductoServicio(id:number){
 
 function crearFactura(){
     const nuevaFactura: Factura = {
-        id_factura: 1,
+        id_factura: 4,
         fecha_hora: new Date(),
         id_paciente: 1,
         id_doctor: 1,
         servicios_consumidos: [1, 2], // IDs de los servicios consumidos
-        total: 150 // Total de la factura
+        total: 200 // Total de la factura
       };
       
      facturaService.crearFactura(nuevaFactura);
@@ -624,7 +622,7 @@ function crearFactura(){
 
 
 function editarFactura(){
-    const idFacturaEditar = 2;
+    const idFacturaEditar = 4;
     const nuevosServicios = [2, 1]; 
     const nuevoTotal = 210; 
     facturaService.editarFactura(idFacturaEditar, nuevosServicios, nuevoTotal);
@@ -704,4 +702,4 @@ function facturacionMes(mes:number, anio: number){
     console.log(`Total de facturación para ${mes}/${anio}:`, totalFacturacion);
 }
 
-//facturacionMes(7, 2022);
+facturacionMes(7, 2024);
