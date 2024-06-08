@@ -16,18 +16,69 @@ Recuerden que todos los datos se deben persistir en archivos .json, utilizando e
 
 - **Autenticación de usuarios:** 🔐 El sistema debe permitir la creación de cuentas de usuario para el personal de la clínica para acceder a las funciones específicas del sistema.
 
+  * Crear usuario
+  * Editar usuario
+  * Deshabilitar ususario (se toma como eliminación, para deshabilitar el inicio de sesión cuando un usuario está deshabilitado)
+  * Autenticar usuario (funcionalidad de inicio de sesión, validar credenciales)
+  * Desautenticar usuario 
+
 - **Registro de pacientes:** 📋 El personal de la clínica debe poder registrar pacientes en el sistema, incluyendo información personal como nombre, fecha de nacimiento, dirección, número de teléfono, así como datos médicos relevantes como alergias, medicamentos actuales y condiciones médicas preexistentes.
 
+  * Crear paciente
+  * Editar paciente
+  * Eliminar paciente
+  * Obtener un paciente (buscar por ID)
+  * Obtener edad de un paciente 
+  * Obtener todos los pacientes
+  * Conteo de pacientes (total de pacientes registrados)
+  * Obtener las últimas 5 recetas del paciente
+
 - **Programación de citas:** 🗓️ El personal de la clínica debe poder programar y gestionar citas para servicios dentales, asignando pacientes y doctores a cada cita.
+  
+  * Programar cita
+  * Cancelar cita
+  * Reprogramar cita
+  * Obtener citas de un doctor
+  * Obtener citas de un paciente
+  - Obtener citas por fecha
+
 
 - **Gestión de doctores y horarios:** ⏰ Los administradores de la clínica deben poder gestionar los horarios de los doctores, asignando horarios de trabajo disponibles.
 
+  * Crear doctor
+  * Editar doctor y sus horarios
+  * Eliminar doctor
+  * Obtener un doctor (buscar por ID)
+  * Obtener doctores disponibles para una fecha específica
+  * Obtener todos los doctores
+  * Conteo de doctores (total de doctores registrados)
+  * Validar disponibilidad de un doctor para una fecha específica
+
 - **Registro de recetas:** 💊 Los doctores deben poder generar recetas médicas para medicamentos y tratamientos dentales, especificando la dosis, frecuencia y duración del tratamiento, y adjuntándolas al historial médico del paciente.
+
+  * Crear recetas
+  * Editar recetas
+  * Eliminar recetas
+  * Obtener recetas de un paciente
+  * Obtener medicamentos de una receta
 
 - **Administración de productos y servicios:** 💼 El sistema debe mantener un catálogo de productos y servicios dentales, incluyendo servicios como limpiezas, empastes, extracciones, tratamientos de conducto, ortodoncia, blanqueamiento dental, entre otros.
 
+  * Crear producto/servicio
+  * Editar producto/servicio
+  * Eliminar producto/servicio
+  * Obtener un producto/servicio (buscar por ID)
+  * Obtener todos los productos/servicios por tipo
+
 - **Facturación de servicios prestados:** 💵 Después de cada cita, el sistema debe generar una factura que muestre un resumen de los servicios consumidos (incluyendo procedimientos realizados y productos utilizados) y los honorarios correspondientes a la cita. Esta factura debe ser almacenada en el sistema para futuras referencias.
 
+  * Crear factura
+  * Editar factura (debe editar el total, al modificar los servicios_consumidos)
+  * Eliminar factura
+  * Obtener facturas por cliente
+  * Obtener productos por factura (nombre y precio de cada producto)
+  * Obtener facturas por una fecha específica
+  * Obtener total de facturación por mes
 
 ## ¡Buena suerte y éxito en su proyecto! 🍀🚀
 
