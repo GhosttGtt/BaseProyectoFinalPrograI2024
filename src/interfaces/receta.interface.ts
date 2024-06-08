@@ -8,4 +8,3 @@ export interface Receta {
     medicamentos: Medicamento[]
 }
 
-
