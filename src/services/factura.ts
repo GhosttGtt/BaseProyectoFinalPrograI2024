@@ -66,7 +66,12 @@ export class FacturaService {
     }
 
     obtenerFacturasPorFecha(fecha: Date): Factura[] {
-      return this.facturas.filter(factura => factura.fecha_hora.toDateString() === fecha.toDateString());
+      const fechaSinHora = new Date(fecha.getFullYear(), fecha.getMonth(), fecha.getDate());
+      return this.facturas.filter(factura => {
+          const facturaFecha = new Date(factura.fecha_hora);
+          const facturaFechaSinHora = new Date(facturaFecha.getFullYear(), facturaFecha.getMonth(), facturaFecha.getDate());
+          return facturaFechaSinHora.getTime() === fechaSinHora.getTime(),'T00:00';
+      });
   }
 
 obtenerTotalFacturacionPorMes(mes: number, anio: number): number {
