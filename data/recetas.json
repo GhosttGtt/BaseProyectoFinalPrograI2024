@@ -40,5 +40,19 @@
         "duracion_dias": 7
       }
     ]
+  },
+  {
+    "id": 3,
+    "id_paciente": 2,
+    "id_doctor": 2,
+    "medicamentos": [
+      {
+        "id": 3,
+        "nombre": "Paracetamol",
+        "dosis": "200mg",
+        "frecuencia_horas": 4,
+        "duracion_dias": 5
+      }
+    ]
   }
 ]
