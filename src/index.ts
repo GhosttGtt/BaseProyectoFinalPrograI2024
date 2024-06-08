@@ -28,14 +28,14 @@ const userService = new UsuarioService();
 // [ CREAR USUARIO ] 
 const nuevoUsuario: Usuario = {
     id_usuario: 0,
-    nombre: 'David',
-    carnet: 123456790,
-    correo: 'david@clinica.com',
-    clave: 'clave123',
+    nombre: 'Araceli',
+    carnet: 1234550,
+    correo: 'aracelid@clinica.com',
+    clave: 'clave1235',
     habilitado: true
 };
-//userService.crearUsuario(nuevoUsuario);
-//console.log('Usuario creado: ', nuevoUsuario);
+userService.crearUsuario(nuevoUsuario);
+console.log('Usuario creado: ', nuevoUsuario);
 
 
 
