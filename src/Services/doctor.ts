@@ -1,5 +1,4 @@
 import * as fs from 'fs';
-import { Doctor,Horario } from '../Interfaces/doctor.interface';
 import { CitaService } from './cita';
 
 export class DoctorService {

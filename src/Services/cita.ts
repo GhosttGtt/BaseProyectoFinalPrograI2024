@@ -1,6 +1,5 @@
 // services/cita.service.ts
 import * as fs from 'fs';
-import { Cita } from '../Interfaces/cita.interface';
 
 export class CitaService {
   private citas: Cita[] = [];
