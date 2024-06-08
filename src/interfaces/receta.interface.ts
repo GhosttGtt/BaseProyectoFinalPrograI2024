@@ -1,3 +1,4 @@
+
 import { Medicamento } from './medicamento.interface'
 
 export interface Receta {
@@ -6,4 +7,5 @@ export interface Receta {
     id_doctor: number
     medicamentos: Medicamento[]
 }
+
 

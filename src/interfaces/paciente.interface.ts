@@ -1,3 +1,4 @@
+
 import { Receta } from "./receta.interface"
 
 export interface Paciente {
@@ -11,3 +12,4 @@ export interface Paciente {
     condiciones_medicas: string[]
     recetas: Receta[];
 }
+

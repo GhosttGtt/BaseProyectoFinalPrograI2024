@@ -1,3 +1,4 @@
+
 export interface Usuario {
     id_usuario: number
     nombre: string
@@ -6,3 +7,4 @@ export interface Usuario {
     clave: string
     habilitado: boolean
 }
+

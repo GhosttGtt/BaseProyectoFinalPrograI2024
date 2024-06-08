@@ -1,3 +1,4 @@
+
 import { Horario } from './horario.interface'
 
 export interface Doctor {
@@ -7,4 +8,3 @@ export interface Doctor {
     horario: Horario[]
 }
 export { Horario }
-
