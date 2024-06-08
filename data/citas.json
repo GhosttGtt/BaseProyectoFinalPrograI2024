@@ -52,35 +52,5 @@
     "fecha_hora": "2024-06-10T16:00:00.000Z",
     "id_paciente": 1,
     "id_doctor": 1
-  },
-  {
-    "id_cita": 10,
-    "fecha_hora": "2024-06-10T16:00:00.000Z",
-    "id_paciente": 1,
-    "id_doctor": 1
-  },
-  {
-    "id_cita": 11,
-    "fecha_hora": "2024-06-10T16:00:00.000Z",
-    "id_paciente": 1,
-    "id_doctor": 1
-  },
-  {
-    "id_cita": 12,
-    "fecha_hora": "2024-06-10T16:00:00.000Z",
-    "id_paciente": 1,
-    "id_doctor": 1
-  },
-  {
-    "id_cita": 13,
-    "fecha_hora": "2024-06-10T16:00:00.000Z",
-    "id_paciente": 1,
-    "id_doctor": 1
-  },
-  {
-    "id_cita": 14,
-    "fecha_hora": "2024-06-10T16:00:00.000Z",
-    "id_paciente": 1,
-    "id_doctor": 1
   }
 ]
