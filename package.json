@@ -1,21 +1,11 @@
 {
-  "scripts": {
-    "build": "tsc",
-    "start": "node build/src/index",
-    "dev": "nodemon"
-  },
-  "devDependencies": {
-    "nodemon": "^3.1.0",
-    "ts-node": "^10.9.2"
-  },
-  "dependencies": {
-    "prompt-sync": "^4.2.0"
-  },
-  "name": "baseproyectofinalprograi20242",
-  "description": "El proyecto requiere la formación de grupos de 4 a 6 personas, dependiendo de la afinidad entre los estudiantes. Cada estudiante debe asumir la responsabilidad de buscar compañeros para conformar su grupo. Una vez que el grupo esté completo, se debe enviar un correo electrónico con el asunto \"Integrantes Proyecto Examen Final - Programación I\" a la dirección de correo electrónico del catedrático. En este correo, cada estudiante debe proporcionar los siguientes datos: nombre completo, número de carnet y correo electrónico institucional.",
-  "version": "1.0.0",
-  "main": "index.js",
-  "keywords": [],
-  "author": "",
-  "license": "ISC"
+    "scripts": {
+        "build": "tsc",
+        "start": "node build/src/index",
+        "dev": "nodemon"
+    },
+    "devDependencies": {
+        "nodemon": "^3.1.0",
+        "ts-node": "^10.9.2"
+    }
 }
